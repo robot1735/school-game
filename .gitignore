@@ -161,3 +161,9 @@ project.lock.json
 *.rar
 *.tar
 *.gz
+
+# ===== 本机推送助手（不上传 GitHub）=====
+# tools/ 里存放着"一键推送"脚本，它自带 .gitignore（内容为 *）挡住整个文件夹。
+# 注意：这里的规则一律用 ASCII。本机 cmd / Windows PowerShell 使用 GBK 代码页，
+# 实测中文文件名写进忽略规则会匹配失败，所以不要在这里写中文文件名。
+tools/
